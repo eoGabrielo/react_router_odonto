@@ -1,0 +1,52 @@
+.topo{
+    background-color: #232270;
+    color: white;
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2rem;
+}
+
+
+.logoTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logoTexto img{
+    height: 32px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.lista li{
+    list-style: none;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.lista li:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 2500px) {
+    .topo{
+        justify-content: center;
+        gap: 5rem;
+    }
+}
