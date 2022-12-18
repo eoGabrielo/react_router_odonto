@@ -1,0 +1,181 @@
+.paginaInicial {
+    width: 100%;
+    margin: 1px 0;
+    margin-top: 1px;
+}
+
+.banner {
+    background-color: #232270;
+    color: white;
+    padding: 1rem;
+}
+
+.TituloEsubTitulo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.TituloEsubTitulo h1 {
+    color: gold;
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.TituloEsubTitulo span {
+    color: white;
+    font-weight: 100;
+}
+
+.denteTextoPai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.denteTexto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    width: 50%;
+    height: 75px;
+    max-width: 1000px;
+    
+}
+
+.denteTexto img {
+    height: 25px;
+}
+
+.denteTexto p {
+    font-weight: 600;
+}
+
+.pqDentes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.tituloFoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.1rem;
+}
+
+.tituloFoto h1 {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.tituloFoto span {
+    font-weight: 600;
+}
+
+.tituloFoto img {
+    width: 100%;
+}
+
+.dicasAparelho {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.dicasAparelho div {
+    max-width: 300px;
+}
+
+.vejaOque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloVejaOque{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 3.8rem;
+    margin-bottom: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.vejaOque span{
+    font-weight: 600;
+}
+
+.clientes {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.clientes div img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.clientes div p{
+    padding: 1rem;
+}
+
+.clientes div {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes div h1{
+    font-size: 1.2rem;
+    color: #02013c88;
+}
+
+.clientes div p {
+    font-style: italic;
+    text-align: center;
+}
+
+.vejaOque a{
+    color: white;
+    background-color: #232270;
+    padding: 0.8rem 1.3rem;
+    margin: 1.2rem 0;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.vejaOque a:hover{
+    background-color: #3735ac;
+}
