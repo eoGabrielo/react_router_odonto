@@ -1,19 +1,18 @@
 # Odonto React
-<br>
-Projeto desenvolvido com as aula da plataforma online da DevMedia, aonde foi criado um sistema de páginas para navegar entre elas com a ferramente React, nesse projeto podemos esperar por uma página web que tem informações sobre uma empresa/estabelecimento com uma página dedicada para mais informações para contato.
-<br>
 
-<h2> Explicando projeto </h2>
-A estrutura do código foi desenvolvida por partes, com componentes e paginas separados em arquivos diferentes, foi criado um componente de topo e rodapé que se aplica no componente principal (App.js) e entre esses dois componentes foi inserido um componente de rota que é responsável por fazer o usuário navegar entre as páginas do site.<br>
-No projeto temos somente duas paginas a inicial e a de contato, para acessar a área de contato temos duas opções na navbar em cima do site ou na página principal tem um botão que também direciona para a página de contato com os "doutores".
-<br>
-<h2> Bibliotecas usadas</h2>
-<br>
-As seguinte bibliotecas foram usadas para o desenvolvimento: <br>
-<strong>react-route-dom -></strong> Para fazer a navegação entre as paginas <br>
-<strong>react-iframe -></strong> Para adicionar um iframe com o mapa do google do local <br>
+Projeto desenvolvido com base nas aulas da plataforma online da DevMedia, focado na criação de um sistema de páginas usando a ferramenta React. Neste projeto, espera-se uma página web contendo informações sobre uma empresa ou estabelecimento, com uma página dedicada para detalhes de contato.
 
+## Explicação do Projeto
 
+A estrutura do código foi construída de maneira modular, com componentes e páginas separados em arquivos distintos. Foram criados componentes para o cabeçalho (topo) e rodapé, aplicados no componente principal (App.js). Entre esses componentes, foi inserido um componente de roteamento responsável por facilitar a navegação do usuário entre as páginas do site.
 
+O projeto conta com apenas duas páginas: a inicial e a de contato. Para acessar a página de contato, há duas opções disponíveis: uma na barra de navegação superior do site e outra na página principal por meio de um botão que também direciona para a página de contato com os "doutores".
 
+## Bibliotecas Utilizadas
 
+O desenvolvimento contou com a utilização das seguintes bibliotecas:
+
+- **react-route-dom**: Para facilitar a navegação entre as páginas.
+- **react-iframe**: Para adicionar um iframe com o mapa do Google, exibindo a localização do estabelecimento.
+
+O projeto é resultado do aprendizado adquirido durante as aulas, proporcionando uma visão prática da construção de aplicações web com React. Sinta-se à vontade para explorar e ajustar conforme necessário. Se surgirem dúvidas ou sugestões, estou aberto à discussão e colaboração para aprimorar ainda mais o projeto.
